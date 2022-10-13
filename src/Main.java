@@ -1,4 +1,3 @@
-import java.util.*;
 public class Main
 {
     public static void main(String[] args)
@@ -9,7 +8,7 @@ public class Main
             System.out.println(x);
         }
 
-        for (int l = 0; l < 3; l++)
+        for (int l = 0; l < 3; l++) //blank lines
         {
             System.out.println();
         }
@@ -19,7 +18,7 @@ public class Main
             System.out.println(x);
         }
 
-        for (int l = 0; l < 3; l++)
+        for (int l = 0; l < 3; l++) //blank lines
         {
             System.out.println();
         }
@@ -29,7 +28,7 @@ public class Main
             System.out.println(x);
         }
 
-        for (int l = 0; l < 3; l++)
+        for (int l = 0; l < 3; l++) //blank lines
         {
             System.out.println();
         }
@@ -37,6 +36,49 @@ public class Main
         for (int x = 10; x >= 0; x-= 2)
         {
             System.out.println(x);
+        }
+
+        for (int l = 0; l < 3; l++) //blank lines
+        {
+            System.out.println();
+        }
+
+        //Part B
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int l = 0; l < 3; l++) //blank lines
+        {
+            System.out.println();
+        }
+
+        for (int i = 5; i >= 1; i--)
+        {
+            for (int j = 1; j <= i; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int l = 0; l < 3; l++) //blank lines
+        {
+            System.out.println();
+        }
+
+        for (int i = 5; i >= 1; i--)
+        {
+            for (int j = 1; j <= 5; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
     }
